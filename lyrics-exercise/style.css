@@ -1,0 +1,31 @@
+body{
+    background-color:black;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color:white;
+}
+h3{
+    color:white;
+    text-align:center;
+    font-family:'Courier New', Courier, monospace
+}
+p{
+    text-align:center;
+    color:white;
+    font-family: garamond;
+}
+a{
+    color:white;
+}
+.image1{
+    float:right;
+}
+.image2{
+    float:left;
+}
+.a {color:white;}
+.b {color:yellow;}
