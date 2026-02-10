@@ -1,0 +1,87 @@
+/* 1. header margin-bottom */
+header {
+  margin-bottom: 3rem;
+}
+
+/* 2. paragraph line-height */
+p {
+  line-height: 1.6;
+}
+
+/* 3. "See All..." links */
+a.see-all {
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+/* 4. show titles */
+.shows > li > h1 {
+  font-size: 2.5rem;
+}
+
+/* 5. section titles */
+.shows h2 {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+/* 6. all title fonts light weight */
+h1, h2 {
+  font-weight: 300;
+}
+
+/* 7. cast images width 100% */
+.cast img {
+  width: 100%;
+  display: block;
+}
+
+/* 8. each castmember element width 25% */
+.cast > ul > li {
+  width: 25%;
+}
+
+/* (Needed so the 25% widths actually layout in rows) */
+.cast > ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* 9. border above each show (only the show cards) */
+.shows > li {
+  border-top: 1px solid #000;
+}
+
+/* 10. selected nav tab bold + black */
+nav .selected a {
+  font-weight: bold;
+  color: #000;
+}
+
+/* 11. castmember labels size */
+.cast ul li a div {
+  font-size: 0.8rem;
+}
+
+/* 12. actor/actress names bold (first div) */
+.cast ul li a div:first-of-type {
+  font-weight: bold;
+}
+
+/* 13. character names italic (second div) */
+.cast ul li a div:last-of-type {
+  font-style: italic;
+}
+
+/* 14. asterisk on last GoT season year */
+#game-of-thrones .seasons ul li:last-child::after {
+  content: "*";
+}
+
+/* 15. "* Final Season" after GoT seasons list */
+#game-of-thrones .seasons ul::after {
+  content: "* Final Season";
+  display: block;
+  font-size: 0.7rem;
+  color: #999;
+}
