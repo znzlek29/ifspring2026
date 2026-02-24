@@ -1,0 +1,106 @@
+* {
+    font-family: "Archivo Narrow", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(0,0,255,.5);
+    background-image: url("../images/pyke1.jpg");
+    text-align: center;
+    padding: 151px 0 190px 0;
+}
+
+div.column {
+    width: 960px;
+    margin: auto;
+    /* background-color: rgba(255, 68, 0, 0.3); */
+}
+
+h1 {
+    font-size: 80px;
+    color:white;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 36px;
+    color:white;
+}
+
+section {
+    padding: 35px 0 40px 0;
+}
+
+section.intro {
+    background-color: rgb(0, 110, 144);
+    color: white;
+}
+
+section.photo-grid {
+    background-color: rgb(0, 0, 0);
+    padding: 39px 0 40px 0;
+}
+
+section.outro {
+    padding: 40px 0 100px 0;
+    background-color: rgb(43,86,94);
+    color:white;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+li {
+    display: flex;
+    gap: 12px;
+    width: 430px;
+    margin-bottom: 23px;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 7px;
+    color:white;
+}
+
+h5 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    width: 720px;
+    margin: 0 auto;
+}
+
+.float {
+    float: right;
+    border: 1px solid white;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+p.white{
+    color:white;
+}
+
+footer {
+    padding: 42px 0;
+    background: white;
+    background-image: url("../images/02BW030T4-full.png")
+}
