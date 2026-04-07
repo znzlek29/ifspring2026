@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etiquette | The Art of Sushi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="top-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Sushi</a>
+      <button class="hamburger">&#9776;</button>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="history.html">History</a>
+        <a href="types.html">Types</a>
+        <a href="ingredients.html">Ingredients</a>
+        <a href="etiquette.html" class="current">Etiquette</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero hero-sm">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Course Four</p>
+      <h1>Etiquette</h1>
+      <p>The customs of the sushi counter</p>
+    </div>
+  </header>
+
+  <main class="page-wrap">
+
+    <section>
+      <span class="section-meta">Course Four / Etiquette</span>
+      <h2 class="section-title">How to Eat Sushi</h2>
+      <div class="divider"></div>
+      <p style="font-size: 0.9rem; color: #B8B2A0;">Unlike sashimi, nigirizushi is traditionally eaten with fingers, even in formal dining settings. The following customs are part of sushi dining culture as described on Wikipedia.</p>
+
+      <ol class="rule-list">
+        <li>Unlike sashimi, which is eaten with chopsticks, nigirizushi is traditionally eaten with the fingers, even in formal settings.</li>
+        <li>Soy sauce serves as the standard condiment. Traditional etiquette dictates that sushi should be inverted so only the topping contacts the sauce, not the rice.</li>
+        <li>The rice is already seasoned with rice vinegar, sugar, salt, mirin, and kombu. Dipping the rice directly into soy sauce causes it to absorb too much and become damaged.</li>
+        <li>Conventionally, the sushi chef determines the appropriate amount of wasabi during preparation, and diners were not expected to add more.</li>
+        <li>Modern practice has shifted this approach. Today, wasabi is a matter of individual preference, and many Japanese restaurants serve it separately, allowing customers to add it according to their taste.</li>
+        <li>Gari, or sweet pickled ginger, is consumed between courses to cleanse the palate and support digestion. It is not placed on top of the sushi.</li>
+        <li>Green tea invariably accompanies sushi service in Japan. In sushi terminology, green tea is referred to as agari.</li>
+      </ol>
+
+      <aside class="did-you-know">
+        <span class="dyk-tag">Did You Know</span>
+        <h3 class="dyk-title">Omakase: Leave It to the Chef</h3>
+        <p class="dyk-text">Omakase represents "a form of Japanese dining in which guests leave themselves in the hands of a chef" to receive seasonal meals. Many sushi restaurants offer fixed-price sets selected by the chef from the catch of the day. These are often graded as sho-chiku-bai (pine, bamboo, and plum), with pine being the most expensive and plum the least.</p>
+      </aside>
+
+      <aside class="did-you-know">
+        <span class="dyk-tag">Did You Know</span>
+        <h3 class="dyk-title">Presentation and Plating</h3>
+        <p class="dyk-text">Traditionally, sushi is served on minimalist Japanese-style plates, often made of wood or lacquer, and arranged to emphasize clean lines, open space, and a sense of tranquility. Sushi plating avoids clutter, reflecting the aesthetic principles of Japanese cuisine. Customers can typically sit at a normal table or at a counter where the sushi chef works.</p>
+      </aside>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p class="footer-logo">Sushi</p>
+    <p>An educational resource on the art and history of sushi.</p>
+    <p>
+      Sources:
+      <a href="https://en.wikipedia.org/wiki/Sushi" target="_blank">Wikipedia, Sushi</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://en.wikipedia.org/wiki/History_of_sushi" target="_blank">Wikipedia, History of Sushi</a>
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    $('.hamburger').click(function() {
+      $('.nav-links').toggleClass('open');
+    });
+  </script>
+</body>
+</html>

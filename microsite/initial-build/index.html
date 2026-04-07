@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Art of Sushi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="top-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Sushi</a>
+      <button class="hamburger">&#9776;</button>
+      <div class="nav-links">
+        <a href="index.html" class="current">Home</a>
+        <a href="history.html">History</a>
+        <a href="types.html">Types</a>
+        <a href="ingredients.html">Ingredients</a>
+        <a href="etiquette.html">Etiquette</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">A Tasting Menu in Four Courses</p>
+      <h1>The Art of Sushi</h1>
+      <p>An exploration of an ancient craft</p>
+    </div>
+  </header>
+
+  <main class="page-wrap">
+
+    <section>
+      <span class="section-meta">Course Zero / Introduction</span>
+      <h2 class="section-title">A Quiet Counter, A Centuries Old Craft</h2>
+      <div class="divider"></div>
+
+      <div class="intro-layout">
+        <div class="intro-image">
+          <img src="https://images.unsplash.com/photo-1700367059983-ee8a28689971?w=900&q=85" alt="Sushi chef preparing nigiri">
+        </div>
+        <div class="intro-text">
+          <p>Sushi is a traditional Japanese dish made with vinegared rice, typically seasoned with sugar and salt, and combined with a variety of ingredients such as seafood, vegetables, or meat. While sushi has numerous styles and presentations, the defining component is the vinegared rice, also known as shari or sumeshi.</p>
+          <p>The modern form of sushi is believed to have been created by Hanaya Yohei, who invented nigiri-zushi around 1824 in the Edo period. It is traditionally made with medium-grain white rice and commonly prepared with seafood such as squid, eel, yellowtail, salmon, tuna, or imitation crab meat. It is often served with pickled ginger (gari), wasabi, and soy sauce.</p>
+          <p>Sushi is sometimes confused with sashimi, a dish that consists of thinly sliced raw fish or meat without rice. Today, sushi is considered one of the most popular dishes in the world.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="course-menu">
+      <span class="section-meta">The Menu</span>
+      <h2 class="section-title">Four Courses</h2>
+      <div class="divider"></div>
+
+      <ul class="course-list">
+        <li>
+          <a href="history.html">
+            <span class="course-num">01</span>
+            <span class="course-title">History</span>
+            <span class="course-arrow">&rarr;</span>
+          </a>
+        </li>
+        <li>
+          <a href="types.html">
+            <span class="course-num">02</span>
+            <span class="course-title">Types</span>
+            <span class="course-arrow">&rarr;</span>
+          </a>
+        </li>
+        <li>
+          <a href="ingredients.html">
+            <span class="course-num">03</span>
+            <span class="course-title">Ingredients</span>
+            <span class="course-arrow">&rarr;</span>
+          </a>
+        </li>
+        <li>
+          <a href="etiquette.html">
+            <span class="course-num">04</span>
+            <span class="course-title">Etiquette</span>
+            <span class="course-arrow">&rarr;</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p class="footer-logo">Sushi</p>
+    <p>An educational resource on the art and history of sushi.</p>
+    <p>
+      Sources:
+      <a href="https://en.wikipedia.org/wiki/Sushi" target="_blank">Wikipedia, Sushi</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://en.wikipedia.org/wiki/History_of_sushi" target="_blank">Wikipedia, History of Sushi</a>
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    $('.hamburger').click(function() {
+      $('.nav-links').toggleClass('open');
+    });
+  </script>
+</body>
+</html>
