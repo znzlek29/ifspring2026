@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etiquette | The Art of Sushi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="top-nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img class="logo-icon" src="https://img.icons8.com/?size=100&id=NCqeMZtMPKMN&format=png&color=000000" alt="Chopsticks icon">
+        Sushi
+      </a>
+      <button class="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="history.html">History</a>
+        <a href="types.html">Types</a>
+        <a href="ingredients.html">Ingredients</a>
+        <a href="etiquette.html" class="current">Etiquette</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero hero-sm" style="background-image: url('https://images.unsplash.com/photo-1763943431214-275e64002f90?w=1800&q=85');">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Course Four</p>
+      <h1>Etiquette</h1>
+      <p>The customs of the sushi counter</p>
+    </div>
+    <a href="#content" class="hero-chevron">&#9661;</a>
+  </header>
+
+  <main class="page-wrap">
+
+    <section id="content" class="reveal">
+      <span class="section-meta">Course Four / Etiquette</span>
+      <h2 class="section-title">How to Eat Sushi</h2>
+      <div class="divider"></div>
+      <p style="font-size: 0.9rem; color: #B8B2A0;">Unlike sashimi, nigirizushi is traditionally eaten with fingers, even in formal dining settings. The following customs are part of sushi dining culture as described on Wikipedia.</p>
+
+      <ol class="rule-list reveal">
+        <li>Unlike sashimi, which is eaten with chopsticks, nigirizushi is traditionally eaten with the fingers, even in formal settings.</li>
+        <li>Soy sauce serves as the standard condiment. Traditional etiquette dictates that sushi should be inverted so only the topping contacts the sauce, not the rice.</li>
+        <li class="rule-visual">
+          <img src="https://miro.medium.com/v2/resize:fit:1400/0*9B-75KS3mxIZ5Loj" alt="Sushi and soy sauce">
+        </li>
+        <li>The rice is already seasoned with rice vinegar, sugar, salt, mirin, and kombu. Dipping the rice directly into soy sauce causes it to absorb too much and become damaged.</li>
+        <li>Conventionally, the sushi chef determines the appropriate amount of wasabi during preparation, and diners were not expected to add more.</li>
+        <li>Modern practice has shifted this approach. Today, wasabi is a matter of individual preference, and many Japanese restaurants serve it separately, allowing customers to add it according to their taste.</li>
+        <li class="rule-visual">
+          <img style="object-position: center 35%;" src="https://www.mashed.com/img/gallery/secrets-of-wasabi-youll-wish-you-knew-sooner/intro-1706117036.jpg" alt="Wasabi preparation">
+        </li>
+        <li>Gari, or sweet pickled ginger, is consumed between courses to cleanse the palate and support digestion. It is not placed on top of the sushi.</li>
+        <li>Green tea invariably accompanies sushi service in Japan. In sushi terminology, green tea is referred to as agari.</li>
+        <li class="rule-visual">
+          <img style="object-position: center 60%;" src="https://orientalteabox.com/cdn/shop/articles/2_Image_1_1080x.jpg?v=1689945032" alt="Tea service with sushi">
+        </li>
+      </ol>
+
+      <aside class="did-you-know reveal">
+        <span class="dyk-tag">Did You Know</span>
+        <h3 class="dyk-title">Omakase: Leave It to the Chef</h3>
+        <p class="dyk-text"><strong>Omakase</strong> represents <em>"a form of Japanese dining in which guests leave themselves in the hands of a chef"</em> to receive seasonal meals. Many sushi restaurants offer <u>fixed-price sets</u> selected by the chef from the catch of the day. These are often graded as <strong>sho-chiku-bai</strong> (pine, bamboo, and plum), with pine being the most expensive and plum the least.</p>
+      </aside>
+
+      <aside class="did-you-know reveal">
+        <span class="dyk-tag">Did You Know</span>
+        <h3 class="dyk-title">Presentation and Plating</h3>
+        <p class="dyk-text">Traditionally, sushi is served on <strong>minimalist</strong> Japanese-style <u>plates</u>, often made of wood or lacquer, and arranged to emphasize <em>clean lines, open space, and a sense of tranquility</em>. Sushi plating avoids clutter, reflecting the aesthetic principles of Japanese cuisine. Customers can typically sit at a normal table or at a counter where the sushi chef works.</p>
+      </aside>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p class="footer-logo">
+      <img class="logo-icon" src="https://img.icons8.com/?size=100&id=NCqeMZtMPKMN&format=png&color=000000" alt="Chopsticks icon">
+      Sushi
+    </p>
+    <nav class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="history.html">History</a>
+      <a href="types.html">Types</a>
+      <a href="ingredients.html">Ingredients</a>
+      <a href="etiquette.html">Etiquette</a>
+    </nav>
+    <p>An educational resource on the art and history of sushi.</p>
+    <p>
+      Sources:
+      <a href="https://en.wikipedia.org/wiki/Sushi" target="_blank">Wikipedia, Sushi</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://en.wikipedia.org/wiki/History_of_sushi" target="_blank">Wikipedia, History of Sushi</a>
+    </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script>
+    // Slide-out nav
+    $('.hamburger').click(function() {
+      var isOpen = $(this).toggleClass('open').hasClass('open');
+      $('.nav-links').toggleClass('open', isOpen);
+      $('body').toggleClass('nav-open', isOpen);
+      $(this).attr('aria-expanded', isOpen);
+    });
+    $('.nav-links a').click(function() {
+      $('.hamburger').removeClass('open').attr('aria-expanded', 'false');
+      $('.nav-links').removeClass('open');
+      $('body').removeClass('nav-open');
+    });
+
+    // Hero chevron smooth scroll
+    $('.hero-chevron').click(function(e) {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: $('#content').offset().top }, 800);
+    });
+
+    // Scroll reveal
+    if ('IntersectionObserver' in window) {
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            $(entry.target).addClass('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.05 });
+      $('.reveal').each(function() { observer.observe(this); });
+    } else {
+      $('.reveal').addClass('visible');
+    }
+  </script>
+</body>
+</html>
